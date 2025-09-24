@@ -29,4 +29,4 @@ Je hoeft alleen de essentiële keys en domeinnaam in te voeren.
 2. Voer het installatiescript uit:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/<gebruikersnaam>/HostMaster/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/pizzanetwork-nl/HostMaster/main/install.sh | bash
