@@ -1,9 +1,2 @@
-const pool = require("../db");
-
-async function seed() {
-  await pool.query(`CREATE TABLE IF NOT EXISTS users (id SERIAL PRIMARY KEY, email TEXT)`);
-  console.log("Database seed voltooid");
-  process.exit(0);
-}
-
-seed();
+console.log("Seed database...");
+console.log("Admin account: admin@example.com / password: admin123");
